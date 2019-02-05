@@ -7,7 +7,8 @@
     "inquirer": "^6.2.2",
     "loader": "^2.1.1",
     "mysql": "^2.16.0",
-    "prompt": "^1.0.0"
+    "prompt": "^1.0.0",
+    "tmp": "0.0.33"
   },
   "devDependencies": {},
   "scripts": {
