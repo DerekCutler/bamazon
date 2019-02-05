@@ -1,0 +1,18 @@
+{
+  "name": "homework10",
+  "version": "1.0.0",
+  "description": "A Node.js & MySQL digital storefront",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "loader": "^2.1.1",
+    "mysql": "^2.16.0",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Derek Cutler",
+  "license": "ISC"
+}
