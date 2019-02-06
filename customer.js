@@ -71,14 +71,14 @@ function whatWouldYouLike() {
     }]).then(function (answer) {
         return new Promise(function (resolve, reject) {
             // query for all items in products table where the item_id is what was chosen
-            connection.query("SELECT * FROM products WHERE item_id=?", answer.product_id, function (err, res) {
+            connection.query("SELECT * FROM products WHERE item_id=?", answer.item_id, function (err, res) {
                 if (err) reject(err);
                 resolve(res);
             });
         }).then(function (result) {
             // if there aren't enough of the item
             if (answer.number_of_units > result[0].stock_quantity) {
-                return "I'm sorry Dave I cannot allow you to but that.";
+                return "I'm sorry, Dave. I'm afraid you can't buy that many.";
                 // if there are enough
             } else {
                 var object = {};
