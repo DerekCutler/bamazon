@@ -19,12 +19,6 @@ Three JavaScript files replicate the basics of a simple ecommerce engine:
     * Add to Inventory
     * Add New Product
 
-- `BamazonExecutive.js` _([See example here](#executive))_
-  - Simulates very basic profit and sales insights for upper management.
-  - A sample of the menu is below:
-    * View Product Sales by Department 
-    * Create New Department
-
 
 ### MySQL
 
@@ -35,11 +29,11 @@ The JavaScript files mentioned above query a MySQL database called `Bamazon` whi
 
 This App has the following npm dependencies;
 
-npm install
-npm install mysql
-npm install inquirer
+    * npm install
+    * npm install mysql
+    * npm install inquirer
 
 
 ### Video
 
-Video goes here
+    * Video goes here
